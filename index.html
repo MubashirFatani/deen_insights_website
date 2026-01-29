@@ -3,93 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deen Insights - Islamic App</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        .container {
-            max-width: 900px;
-            margin: auto;
-            padding: 20px;
-            background: white;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
-            text-align: center;
-        }
-        h1 {
-            color: #007BFF;
-        }
-        .feature-list {
-            text-align: left;
-            padding: 0;
-        }
-        .feature-list li {
-            list-style: none;
-            padding: 10px 0;
-        }
-        .feature-list li:before {
-            content: "✔️";
-            color: #28a745;
-            margin-right: 10px;
-        }
-        .download-buttons {
-            margin-top: 20px;
-        }
-        .btn {
-            display: inline-block;
-            padding: 10px 20px;
-            margin: 10px;
-            font-size: 18px;
-            color: white;
-            background-color: #007BFF;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: 0.3s;
-        }
-        .btn:hover {
-            background-color: #0056b3;
-        }
-        footer {
-            margin-top: 20px;
-            font-size: 14px;
-            text-align: center;
-            color: #555;
-        }
-    </style>
+    <meta name="description" content="Deen Insights - A premium Islamic app for prayer timings, Quran, Hadith, Qibla, and more. Enhance your spiritual journey with us.">
+    <title>Deen Insights - Your Spiritual Islamic Companion</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;700;800&display=swap" rel="stylesheet">
+    <!-- Main Style -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
 
-    <div class="container">
-        <h1>Welcome to Deen Insights</h1>
-        <p>A feature-rich Islamic app designed to enhance your spiritual journey with essential resources and tools.</p>
-
-        <h2>🌟 Key Features:</h2>
-        <ul class="feature-list">
-            <li>🕌 <strong>Prayer Timings</strong> – Get accurate prayer times based on your location, with notifications.</li>
-            <li>📅 <strong>Islamic & Hijri Date</strong> – Updated daily on the homepage.</li>
-            <li>📜 <strong>Quran Section</strong> – Complete Quran with Para-wise & Surah-wise navigation.</li>
-            <li>📚 <strong>Hadith Section</strong> – Browse authentic Hadith collections with references.</li>
-            <li>🎧 <strong>Quran Audio</strong> – Listen to Surahs with ease.</li>
-            <li>🔢 <strong>Tasbeeh Counter</strong> – Keep track of daily Dhikr.</li>
-            <li>🕌 <strong>Find Nearest Masjids</strong> – Locate mosques within a 5 km radius.</li>
-            <li>🧭 <strong>Qibla Direction</strong> – Accurate Qibla compass.</li>
-            <li>🌙 <strong>Dark & Light Mode</strong> – Choose your preferred theme.</li>
-        </ul>
-
-        <div class="download-buttons">
-            <a href="#" class="btn">Download on Google Play</a>
-            <a href="#" class="btn">Download on App Store</a>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">DEEN<span>INSIGHTS</span></a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="support.html">Support</a></li>
+                    <li><a href="privacypolicy.html">Privacy</a></li>
+                </ul>
+            </nav>
         </div>
+    </header>
 
-        <footer>
-            &copy; 2024 Deen Insights. All Rights Reserved.
-        </footer>
-    </div>
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <h1>Elevate Your Spiritual Journey</h1>
+                <p>Deen Insights is an all-in-one Islamic application designed to provide you with authentic resources, accurate timings, and beautiful experiences every single day.</p>
+                <div class="btn-group">
+                    <a href="https://play.google.com/store/apps/details?id=com.mubashir.deen_insights" class="btn btn-primary">
+                        <i class="fab fa-google-play"></i> Google Play
+                    </a>
+                    <a href="https://testflight.apple.com/join/qutyKDd7" class="btn btn-primary" style="background:#000;">
+                        <i class="fab fa-apple"></i> iOS TestFlight
+                    </a>
+                </div>
+                <div class="hero-image">
+                    <img src="deen_insights_mockup.png" alt="Deen Insights App Mockup">
+                </div>
+            </div>
+        </section>
 
+        <!-- Features Section -->
+        <section id="features" class="features">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Everything You Need in One App</h2>
+                    <p>Designed with precision and love for the global Muslim community.</p>
+                </div>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fas fa-clock"></i></div>
+                        <h3>Prayer Timings</h3>
+                        <p>Get highly accurate prayer times based on your current location with beautiful notifications.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fas fa-book-open"></i></div>
+                        <h3>The Holy Quran</h3>
+                        <p>Read the Quran with both Para and Surah-wise navigation. Clear, beautiful, and accessible.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fas fa-compass"></i></div>
+                        <h3>Qibla Compass</h3>
+                        <p>Find the exact direction of the Kaaba from anywhere in the world with our advanced compass.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fas fa-headset"></i></div>
+                        <h3>Surah Audios</h3>
+                        <p>Listen to high-quality recitations of your favorite Surahs by world-renowned reciters.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fas fa-calculator"></i></div>
+                        <h3>Zakat Calculator</h3>
+                        <p>Calculate your Zakat accurately with our guided and easy-to-use Islamic wealth calculator.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fas fa-mosque"></i></div>
+                        <h3>Tasbeeh Counter</h3>
+                        <p>Track your daily Dhikr and Tasbeeh with a digital counter designed for focus.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="logo" style="color:#fff; margin-bottom: 20px;">DEEN<span>INSIGHTS</span></a>
+                    <p>Your faithful companion in the digital world, bringing Islamic knowledge and tools to your fingertips.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="support.html">Support</a></li>
+                        <li><a href="privacypolicy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:deeninsightsapp786@gmail.com" style="color:#bbb; text-decoration:none;">deeninsightsapp786@gmail.com</a></p>
+                    <p><i class="fas fa-location-dot"></i> Available Globally</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Deen Insights. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
 </html>
